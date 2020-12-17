@@ -53,19 +53,19 @@ if (!isMobile) {
 
 var registerColor = "#f54642";
 var white = "#FFFFFF";
-function hoverButton(element, color) {
-  element.style.color = color;
-  element.style.border = "2px solid " + color;
-}
-
-function resetButton(element) {
+function hoverButton(element) {
   element.style.color = white;
   element.style.border = "2px solid " + white;
 }
 
+function resetButton(element, color) {
+  element.style.color = color;
+  element.style.border = "2px solid " + color;
+}
+
 function hoverRegisterButton(element) {
   element.style.background = "transparent";
-  hoverButton(element, registerColor);
+  resetButton(element, registerColor);
 }
 
 function resetRegisterButton(element) {
