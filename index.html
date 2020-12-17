@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberNaach</title>
+
+    <meta property="og:title" content="CyberNaach | Home" />
+    <meta
+      property="og:description"
+      content="The Premier Virtual Fusion Dance Competition"
+    />
+    <meta property="og:image" content="./favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- <body onload="document.getElementById('card').style.opacity='1'"> -->
+  <body onload="document.body.style.opacity='1'">
+    <div class="container">
+      <div class="card" id="card">
+        <div class="sneaker">
+          <!-- <div class="circle"></div> -->
+          <img src="./cybernaach.png" alt="adidas" />
+        </div>
+        <div class="info">
+          <h1 class="title">#NaachMadness</h1>
+          <h3>Let's Kick It Up a Naach</h3>
+          <div class="sizes wrapper">
+            <button
+              onmouseover="hoverButton(this, '#feff03')"
+              onmouseout="resetButton(this)"
+              onclick="function hi(){window.open('http://bit.ly/CyberNaachRubric')};hi()"
+            >
+              Rubric
+            </button>
+            <button
+              onmouseover="hoverButton(this, '#01fffc')"
+              onmouseout="resetButton(this)"
+              onclick="function hi(){window.open('http://cybernaach.com/rules')};hi()"
+            >
+              Rules
+            </button>
+            <button
+              style="margin-top: 5%"
+              onmouseover="hoverButton(this, '#00fe00')"
+              onmouseout="resetButton(this)"
+              onclick="function hi(){window.open('https://www.youtube.com/channel/UC-FUd7moB9wRy8Yp2t9Eneg?sub_confirmation=1')};hi()"
+            >
+              YouTube
+            </button>
+            <button
+              style="margin-top: 5%"
+              onmouseover="hoverButton(this, '#ff02fb')"
+              onmouseout="resetButton(this)"
+              onclick="function hi(){window.open('http://instagram.com/cybernaach')};hi()"
+            >
+              Instagram
+            </button>
+          </div>
+          <div class="purchase">
+            <button
+              onclick="function hi(){window.open('register.html' , '_self')};hi()"
+              onmouseover="hoverRegisterButton(this)"
+              onmouseout="resetRegisterButton(this)"
+              style="background: #f54642"
+            >
+              REGISTER
+            </button>
+            <p class="footer">© CyberNaach 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

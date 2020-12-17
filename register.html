@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberNaach</title>
+
+    <meta property="og:title" content="CyberNaach | Register" />
+    <meta property="og:description" content="The Premier Virtual Fusion Dance Competition" />
+    <meta property="og:image" content="./favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- <body onload="document.getElementById('card').style.opacity='1'"> -->
+    <body onload="document.body.style.opacity='1'">
+    <div class="container">
+        <div class="card" id="card">
+            <div class="info">
+                <h1 class="title" style="padding-top: 5%;">Register for #NaachMadness</h1>
+                <P>
+                    <form 
+                    method="post" 
+                    action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfaFJLGZfSSE-eu7-YIe5HR_nMumsUchEwZ43jUrSxMGT4TFw/formResponse" 
+                    id="mG61Hd"
+                    style="padding-top: 5%;"
+                    class="registerForm">
+                    <div class="wrapper">
+                        <input
+                            type="text"
+                            name="entry.684884427"
+                            id="team-name"
+                            value=""
+                            placeholder="Team Name*"
+                            required
+                        />
+
+                        <input
+                            type="email"
+                            name="entry.1194423024"
+                            id="team-email"
+                            value=""
+                            placeholder="Team Email*"
+                            required
+                        />
+
+                        <input
+                            type="text"
+                            name="entry.257541732"
+                            id="contact-name"
+                            value=""
+                            placeholder="Captain Name*"
+                            required
+                         />
+
+                        <input
+                            type="text"
+                            name="entry.2114397941"
+                            id="contact-phone"
+                            value=""
+                            placeholder="Captain Phone Number*"
+                            required
+                        />
+                        <h4>
+                            I understand that I will need to submit team's registration fee and
+                            roster by the specified date in January 2021.*
+                        </h4>
+                         <input
+                        type="text"
+                        name="entry.1190410120"
+                        id="team-name"
+                        value=""
+                        required
+                        placeholder="Type 'Yes' here to confirm*"
+                        />
+
+                        </div>
+                        
+                       
+                        <textarea
+                            style="text-align: left;"
+                            name="entry.1839920740"
+                            id="demo-message"
+                            placeholder="Any Other Comments, Questions, or Concerns?"
+                        ></textarea>
+
+                        <input
+                            type="submit"
+                            value="Submit Registration"
+                            class="submitButton"
+                            onmouseover="hoverRegisterButton(this)"
+                            onmouseout="resetRegisterButton(this)"
+                            style="background: #f54642"
+                        />
+                    </form>
+                </P>
+
+                <p class="footer">
+                    <a onclick="function hi(){window.open('index.html' , '_self')};hi()"> Click Here to Return to Home Page</a>
+                    <br />
+                    <br /> © CyberNaach 2020
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
