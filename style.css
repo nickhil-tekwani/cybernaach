@@ -65,7 +65,7 @@ a:hover {
 }
 
 .sneaker {
-  min-height: 35vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,7 +194,7 @@ a:hover {
 }
 
 .purchase {
-  margin-top: 2rem;
+  margin-top: 0rem;
   transition: all 0.75s ease-out;
 }
 .purchase button {
